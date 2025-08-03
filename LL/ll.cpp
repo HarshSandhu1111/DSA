@@ -17,6 +17,7 @@ class Node {
         next=nullptr;  
     }  
 };
+
    Node* convertlltoarr(vector<int> &arr){
         Node *head= new Node(arr[0]);
         Node* mover=head;
